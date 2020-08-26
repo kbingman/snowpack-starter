@@ -6,7 +6,7 @@ module.exports = {
   devOptions: {
     port: 3000,
   },
-  plugins: ['@snowpack/plugin-babel', '@snowpack/plugin-parcel'],
+  plugins: ['@snowpack/plugin-babel'],
   scripts: {
     'mount:public': 'mount public --to /',
     'mount:src': 'mount src --to /dist',
